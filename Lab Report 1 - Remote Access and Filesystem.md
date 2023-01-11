@@ -10,5 +10,12 @@ To install the Visual Studio Code IDE, go to the [VS Code website](https://code.
 
 ---
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/122483969/211908586-3f6ebffb-5ced-4e51-90cc-d35ec89941e9.png">
+
+---
+Then go to the top bar and click on Terminal, and then click on New Terminal.
+
+---
+<img width="1679" alt="image" src="https://user-images.githubusercontent.com/122483969/211910039-b42acb5b-2a0a-4adb-acef-eba067771570.png">
+
 ---
 
