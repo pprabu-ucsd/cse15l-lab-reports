@@ -33,4 +33,26 @@ The terminal will then ask for your password. Enter your password, and you shoul
 
 ---
 
+## Running Terminal Commands
+After accessing the remote server, you can test out commands through the remote server. Here are some sample commands and what they do:
+
+`cd`
+> Allows you to access files in the directory
+
+`ls -a`
+> Shows all files within the folder currently accessed by the terminal
+<img width="1364" alt="image" src="https://user-images.githubusercontent.com/122483969/212525990-9c6cb7cd-67aa-4dcf-8cbd-4ab82593012e.png">
+
+
+`ls -lat`
+> Shows all files within the folder currently accessed by the terminal along with additional information
+<img width="546" alt="image" src="https://user-images.githubusercontent.com/122483969/212526016-50428e2f-e0e9-46b7-be76-f48e94a81806.png">
+
+
+`ls <directory>`
+> Shows files within the directory specified by the user
+
+`exit`
+> Exits the remote server terminal
+<img width="266" alt="image" src="https://user-images.githubusercontent.com/122483969/212526025-fe6b6b7c-d6c8-4757-ae86-6400a96f00ca.png">
 
