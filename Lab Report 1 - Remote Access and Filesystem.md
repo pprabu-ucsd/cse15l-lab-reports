@@ -2,6 +2,8 @@
 
 **By Pranav Prabu**
 
+> For this tutorial, every step is done through MacOS.
+
 ## Installing Visual Studio Code
 ![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1920px-Visual_Studio_Code_1.35_icon.svg.png)
 The first step necessary for connecting with remote access is installing the Visual Studio Code IDE. This gives you access to an easy-to-use terminal to interface with the remote server.
@@ -18,4 +20,15 @@ Then go to the top bar and click on Terminal, and then click on New Terminal.
 <img width="1679" alt="image" src="https://user-images.githubusercontent.com/122483969/211910039-b42acb5b-2a0a-4adb-acef-eba067771570.png">
 
 ---
+
+## Connecting to the Remote Server
+After installing VS Code, the next step is to connect to the remote server. First, you need to get your user account name and password from the [Account Lookup website](https://sdacs.ucsd.edu/~icc/index.php). You can get your ID and password by entering in your username from your school email address and your PID (Make sure to use a lowercase a when typing in your PID). After getting your account information go to your terminal in VS Code and enter
+`ssh *your CSE 15L account ID goes here*`
+The terminal will then ask for your password. Enter your password, and you should be connected to the remote sever. Overall, the process should look something similar to this:
+
+---
+<img width="516" alt="image" src="https://user-images.githubusercontent.com/122483969/212523635-5c8fa2a6-869b-4938-ab90-e247b087d098.png">
+
+---
+
 
