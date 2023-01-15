@@ -56,3 +56,5 @@ After accessing the remote server, you can test out commands through the remote 
 > Exits the remote server terminal
 <img width="266" alt="image" src="https://user-images.githubusercontent.com/122483969/212526025-fe6b6b7c-d6c8-4757-ae86-6400a96f00ca.png">
 
+## Conclusion
+Congrats! You have accessed your CSE 15L account for the first time, and used commands within the remote server! Good luck with your future work in CSE 15L!
