@@ -10,6 +10,7 @@ I set up my server using port 1234:
 
 For the two tests, I used the following as my URL paths:
 `/add-message?s=we%20have%20no%20problems,%20and%20we%20have%20no%20bugs.`
+
 `/add-message?s=Houston,`
 
 Here are the resulting screenshots:
