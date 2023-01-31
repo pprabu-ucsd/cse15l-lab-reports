@@ -17,9 +17,13 @@ For the two tests, I used the following as my URL paths:
 
 Here are the resulting screenshots:
 ![Image](addMessage1.png)
+
 *AddMessage Test 1*
+
 The methods that are called to print this message are:
+
 `public void handle(final HttpExchange exchange) throws IOException {`
+
 `public String handleRequest(URI url) {`
 
 For handle(final HttpExchange exchange), the argument required is HttpExchange exchange, and the field affecting the method is a URLHandler object named handler. The argument changes from this specific request as a unique URL and path are given to be accepted as the argument. Meanwhile, the field does not change.
@@ -27,9 +31,13 @@ For handle(final HttpExchange exchange), the argument required is HttpExchange e
 For handleRequest(URI url), the argument required is the URI object containing the information need to be spliced, and the field is String output for the method to return. The argument changes due to this specific request as a unique URI is given for each request, and the field also changes for this specific request, as the field is directly correlated to the URI object, and so if the URI object changes, the field also changes.
 
 ![Image](addMessage2.png)
+
 *AddMessage Test 2*
+
 The methods that are called to print this message are also:
+
 `public void handle(final HttpExchange exchange) throws IOException {`
+
 `public String handleRequest(URI url) {`
 
 Similarly to the first request, for handle(final HttpExchange exchange), the argument required is HttpExchange exchange, and the field affecting the method is a URLHandler object named handler. The argument changes from this specific request as a unique URL and path are given to be accepted as the argument. Meanwhile, the field does not change.
