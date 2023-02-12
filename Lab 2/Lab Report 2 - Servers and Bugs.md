@@ -5,6 +5,23 @@
 > For this lab, every step is done through the MacOS
 
 ## Part 1 - Servers
+This was my implementation for handling the request in StringServer.java:
+```
+public String handleRequest(URI url) {
+  if (url.getPath().equals("/")) {
+    return output;
+  } else if (url.getPath().contains("/add-message")) { 
+    String[] parameters = url.getQuery().split("=");
+    if (parameters[0].equals("s")) {
+      output += parameters[1] + "\n";
+    }
+    return output;
+  } else {
+    return "404 Not Found!";
+  }
+}
+```
+
 I set up my server using port 1234:
 
 ![Image](ServerSetup.png)
@@ -96,7 +113,7 @@ static int[] reverseInPlace(int[] arr) {
 }
 ```
 
-This fix addresses the issue, as it changes the way how the array stores the reversed values, ensuring that the values are properly reversed in the array.
+This fix addresses the issue, as it changes the way how the array stores the reversed values, ensuring that the values are properly reversed in the array. The initial method did half of the solution, as it properly reversed the values for the first half of the list. However, once it got to the second half, it started to access the already reversed values to replace the initial values of the second half of the list, which then led to an incorrect result. The fixed method adds a second value substitution into the repeated sequence, while also cutting the for loop's size in half to make sure that the method does not reverse the reversed elements. Through the fixed method, the initial value at `i` is stored into a temporary variable, and then the elements reverse. After reversing the elements, the ending value is substituted with the temporary variable's value, ensuring that the elements are properly reversed. The boolean expression `i < arr.length/2` makes sure that the elements are not reversed twice, which would lead to the original list.
 
 # Part 3 - Learnings
 Something that I did not know before attending Labs 2 and 3 was how to to create a local server to access and manipulate.
