@@ -99,6 +99,6 @@ Result:
 ## Sources
 To find all of these options for the less command, I used these two sources.
 
-[linuxize.com](https://linuxize.com/post/less-command-in-linux/)
+[https://linuxize.com/post/less-command-in-linux/](https://linuxize.com/post/less-command-in-linux/)
 
-[phoenixnap.com](https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-4)
+[https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-4](https://phoenixnap.com/kb/less-command-in-linux#ftoc-heading-4)
