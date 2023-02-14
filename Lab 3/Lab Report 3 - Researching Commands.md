@@ -94,7 +94,7 @@ Example 2:
 Result:
 ![Image](-m_Result1.png)
 
-> The percentage of the file read is shown at the bottom left
+> The percentage of the file read is shown at the bottom left 
 
 ## Sources
 To find all of these options for the less command, I used these two sources.
