@@ -128,30 +128,33 @@ This option in the `less` command keeps the file open in the terminal even after
 
 This option in the `less` command highlights all matches within the file with the given pattern (is case-sensitive). This option is helpful, as if you are looking for a specfic piece of evidence within a text or file, using this option, you lessen the time spent searching for the specific piece of evidence needed.
 
+> For this option, as it was not possible to highlight the parts of the code block that matched the pattern, the pattern will be capitalized instead to convey the effect, and the actual images from the terminal will also be shown.
+
 **Example 1:**
 
 `$ less -pthe ./written_2/travel_guides/berlitz1/HistoryEdinburgh.txt`
 
 **Result:**
-```html
+```
         A Brief History
         The city of Edinburgh grew up around <mark>the<\mark> steep, ragged cliff
-        of ==the== Castle Rock and its easily defended summit. Archaeological
+        of THE Castle Rock and its easily defended summit. Archaeological
         excavations have revealed evidence of habitation here as long ago as
-        900 b.c. Very little, however, is known about ==the== Rock and its
-        inhabitants in ==the== centuries between its first occupation and ==the== time
-        of ==the== MacAlpin kings. A few shadowy details have been left to us by
-        ==the== Romans and by an epic poem from ==the== seventh century.
+        900 b.c. Very little, however, is known about THE Rock and its
+        inhabitants in THE centuries between its first occupation and THE time
+        of THE MacAlpin kings. A few shadowy details have been left to us by
+        THE Romans and by an epic poem from THE seventh century.
         Romans and Britons
-        The Romans invaded Scotland in a.d. 78<E2><80><93>84, where ==the==y met a
-        fierce group called ==the== Picts, whom ==the==y drove north. They consolidated
-        ==the==ir gains by building Antonine<E2><80><99>s Wall across ==the== waist of Scotland
-        between ==the== Firth of Forth and ==the== River Clyde in about a.d. 150.
-        Roman legions encountered ==the== strongholds of ==the== Castle Rock
-        and Arthur<E2><80><99>s Seat, held by a tribe of ancient Britons known as ==the==
-        Votadini. Little is recorded about this group, but ==the==y were probably
+        The Romans invaded Scotland in a.d. 78<E2><80><93>84, where THEy met a
+        fierce group called THE Picts, whom THEy drove north. They consolidated
+        THEir gains by building Antonine<E2><80><99>s Wall across THE waist of Scotland
+        between THE Firth of Forth and THE River Clyde in about a.d. 150.
+        Roman legions encountered THE strongholds of THE Castle Rock
+        and Arthur<E2><80><99>s Seat, held by a tribe of ancient Britons known as THE
+        Votadini. Little is recorded about this group, but THEy were probably
 :
 ```
+[!Image](-p_Result1.png)
 
 > The highlighted text matches with the pattern given in the command
 
@@ -162,17 +165,18 @@ This option in the `less` command highlights all matches within the file with th
 **Result:**
 ```
         Where to Go
-        Many Californians would like to divide ==the==ir state into two new states, Nor==the==rn and Sou==the==rn California<C2><A0><E2><80><94><C2><A0>corresponding to what ==the==y believe to be two distinct f
-        rames of mind as represented by San Francisco and Los Angeles. In fact you will find a little bit of both<C2><A0><E2><80><94><C2><A0>San Francisco<E2><80><99>s sophistication and Los Angeles<E2><80><99> sunny craziness<C2><A0><E2><80><94><C2><A0>all over ==the== place.
-        Our journey begins with San Francisco and its nearby attractions and works its way down ==the== coast to Los Angeles and San Diego before heading inland to ==the== mountains and deserts of ==the== Sierra Nevada and Death Valley. You can turn this itinerary upside down if you prefer, but ei==the==r way, you should also consider making an excursion to Las Vegas, California<E2><80><99>s favorite out-of-state playground.
-        You can get to almost all ==the==se places by train or bus, and air travel is quite cheap. However, ==the== car is king, and it<E2><80><99>s difficult to enjoy ==the== full scope of this vast and varied landscape without driving. San Francisco is unusual for California in that it is a walker<E2><80><99>s town, with buses and cable cars to help you up and down ==the== hills. Los Angeles is undeniably car country, though it is trying to alleviate its congestion and pollution by building a light-rail network. Out-of-town attractions such as ==the== national parks, and especially Death Valley, are most easily reached by car, although once ==the==re it<E2><80><99>s more rewarding to leave your vehicle behind and explore on foot.
+        Many Californians would like to divide THEir state into two new states, NorTHErn and SouTHErn California<C2><A0><E2><80><94><C2><A0>corresponding to what THEy believe to be two distinct f
+        rames of mind as represented by San Francisco and Los Angeles. In fact you will find a little bit of both<C2><A0><E2><80><94><C2><A0>San Francisco<E2><80><99>s sophistication and Los Angeles<E2><80><99> sunny craziness<C2><A0><E2><80><94><C2><A0>all over THE place.
+        Our journey begins with San Francisco and its nearby attractions and works its way down THE coast to Los Angeles and San Diego before heading inland to THE mountains and deserts of THE Sierra Nevada and Death Valley. You can turn this itinerary upside down if you prefer, but eiTHEr way, you should also consider making an excursion to Las Vegas, California<E2><80><99>s favorite out-of-state playground.
+        You can get to almost all THEse places by train or bus, and air travel is quite cheap. However, THE car is king, and it<E2><80><99>s difficult to enjoy THE full scope of this vast and varied landscape without driving. San Francisco is unusual for California in that it is a walker<E2><80><99>s town, with buses and cable cars to help you up and down THE hills. Los Angeles is undeniably car country, though it is trying to alleviate its congestion and pollution by building a light-rail network. Out-of-town attractions such as THE national parks, and especially Death Valley, are most easily reached by car, although once THEre it<E2><80><99>s more rewarding to leave your vehicle behind and explore on foot.
         San Francisco
-        San Franciscans are quite unashamedly in love with ==the==ir town. Its natural setting, nestled in ==the== hills around ==the== bay, makes ==the== city uncommonly cozy; ==the== zip in ==the== air is invigorating
-        , and even ==the== fog that rolls in off ==the== ocean seems more romantic than chilling. If you have a car, one way to begin your visit is to travel along 49-Mile Drive, which provides a compreh
-        ensive tour of ==the== main sights. You<E2><80><99>ll need to use a good map, as ==the== blue signposts with a white seagull in ==the== center can be difficult to locate. Stop off at Twin Peaks (==the== 
-        road to get ==the==re starts near ==the== sou==the==rn end of Market Street) for an excellent panoramic view of ==the== city and ==the== bay, ==the==n park ==the== car, put on a pair of comfortable walking shoes, an
+        San Franciscans are quite unashamedly in love with THEir town. Its natural setting, nestled in THE hills around THE bay, makes THE city uncommonly cozy; THE zip in THE air is invigorating
+        , and even THE fog that rolls in off THE ocean seems more romantic than chilling. If you have a car, one way to begin your visit is to travel along 49-Mile Drive, which provides a compreh
+        ensive tour of THE main sights. You<E2><80><99>ll need to use a good map, as THE blue signposts with a white seagull in THE center can be difficult to locate. Stop off at Twin Peaks (THE 
+        road to get THEre starts near THE souTHErn end of Market Street) for an excellent panoramic view of THE city and THE bay, THEn park THE car, put on a pair of comfortable walking shoes, an
 :
 ```
+[!Image](-p_Result2.png)
 
 > The highlighted text matches with the pattern given in the command
 
