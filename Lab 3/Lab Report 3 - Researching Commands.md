@@ -133,7 +133,7 @@ This option in the `less` command highlights all matches within the file with th
 `$ less -pthe ./written_2/travel_guides/berlitz1/HistoryEdinburgh.txt`
 
 **Result:**
-```
+```html
         A Brief History
         The city of Edinburgh grew up around <mark>the<\mark> steep, ragged cliff
         of ==the== Castle Rock and its easily defended summit. Archaeological
