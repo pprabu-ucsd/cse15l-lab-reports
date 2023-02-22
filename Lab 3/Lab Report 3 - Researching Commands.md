@@ -6,7 +6,7 @@
 
 ## Option 1: -N
 
-Format:
+**Format:**
 
 `$ less -N <file-path>`
 
@@ -122,13 +122,13 @@ Result:
 
 ## Option 3: -p
 
-Format:
+**Format:**
 
 `$ less -p<pattern> <file-path>`
 
 This option in the `less` command highlights all matches within the file with the given pattern (is case-sensitive). This option is helpful, as if you are looking for a specfic piece of evidence within a text or file, using this option, you lessen the time spent searching for the specific piece of evidence needed.
 
-Example 1:
+**Example 1:**
 
 `$ less -pthe ./written_2/travel_guides/berlitz1/HistoryEdinburgh.txt`
 
@@ -225,7 +225,8 @@ Result:
         San Franciscans are quite unashamedly in love with their town. Its natural setting, nestled in the hills around the bay, makes the city uncommonly cozy; the zip in the air is invigorating
         , and even the fog that rolls in off the ocean seems more romantic than chilling. If you have a car, one way to begin your visit is to travel along 49-Mile Drive, which provides a compreh
         ensive tour of the main sights. You<E2><80><99>ll need to use a good map, as the blue signposts with a white seagull in the center can be difficult to locate. Stop off at Twin Peaks (the 
-        road to get there starts near the southern end of Market Street) for an excellent panoramic view of the city and the bay, then park the car, put on a pair of comfortable walking shoes, an3%
+        road to get there starts near the southern end of Market Street) for an excellent panoramic view of the city and the bay, then park the car, put on a pair of comfortable walking shoes, an
+3%
 ```
 
 > The percentage of the file read is shown at the bottom left 
