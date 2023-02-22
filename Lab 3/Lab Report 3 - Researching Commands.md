@@ -154,7 +154,7 @@ This option in the `less` command highlights all matches within the file with th
         Votadini. Little is recorded about this group, but THEy were probably
 :
 ```
-(!Image)[-p_Result1.png]
+![Image](-p_Result1.png)
 
 > The highlighted text matches with the pattern given in the command
 
@@ -176,7 +176,7 @@ This option in the `less` command highlights all matches within the file with th
         road to get THEre starts near THE souTHErn end of Market Street) for an excellent panoramic view of THE city and THE bay, THEn park THE car, put on a pair of comfortable walking shoes, an
 :
 ```
-(!Image)[-p_Result2.png]
+![Image](-p_Result2.png)
 
 > The highlighted text matches with the pattern given in the command
 
