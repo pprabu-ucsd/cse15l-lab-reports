@@ -137,7 +137,7 @@ This option in the `less` command highlights all matches within the file with th
 **Result:**
 ```
         A Brief History
-        The city of Edinburgh grew up around <mark>the<\mark> steep, ragged cliff
+        The city of Edinburgh grew up around THE steep, ragged cliff
         of THE Castle Rock and its easily defended summit. Archaeological
         excavations have revealed evidence of habitation here as long ago as
         900 b.c. Very little, however, is known about THE Rock and its
