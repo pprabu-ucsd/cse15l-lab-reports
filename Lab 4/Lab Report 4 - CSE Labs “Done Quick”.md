@@ -8,13 +8,13 @@ Keys pressed:
 
 Used `ssh` as the query
 
-![Image](image.png)
+![Image](ssh-ctrl+r.png)
 
 `<enter>` to finish the search and run the following command:
 
 `ssh cs15lwi23aaw@ieng6.ucsd.edu`
 
-![Image](image.png)
+![Image](sshLogin.png)
 
 `<CTRL+R>` allows me to search for previous commands made in the terminal using a query.
 
@@ -24,14 +24,14 @@ Used `ssh` as the query
 ## Task #2: Clone your fork of the repository from your Github account
 Copied the SSH key from GitHub:
 `git@github.com:pprabu-ucsd/lab7.git`
-![Image](image.png)
+![Image](sshKey.png)
 
 After typing out `git clone`, I pasted the SSH key into the terminal to get:
 `git clone git@github.com:pprabu-ucsd/lab7.git`
 
 `<enter>` to clone the fork of the repository
 
-![Image](image.png)
+![Image](gitFork.png)
 
 `git clone` allows me to clone a repository from GitHub when offering a valid URL or SSH key to clone from.
 
@@ -40,7 +40,7 @@ After typing out `git clone`, I pasted the SSH key into the terminal to get:
 
 Used `javac` as the query
 
-![Image](image.png)
+![Image](javac-ctrl+r.png)
 
 `<enter>` to finish the search and run the following command:
 
@@ -50,19 +50,19 @@ Used `javac` as the query
 
 Used `TestL` as the query
 
-![Image](image.png)
+![Image](TestL-ctrl+r.png)
 
 `<enter>` to finish the search and run the following command:
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
 
-![Image](image.png)
+![Image](testFailures.png)
 
 ## Task #4: Edit the code file to fix the failing test
 `CTRL+R` to start a search
 
 Used `sed` as the query
 
-![Image](image.png)
+![Image](sed-ctrl+r.png)
 
 `<enter>` to finish the search and run the following command:
 
@@ -75,7 +75,7 @@ Used `sed` as the query
 
 Used `javac` as the query
 
-![Image](image.png)
+![Image](javac-ctrl+r.png)
 
 `<enter>` to finish the search and run the following command:
 
@@ -85,12 +85,12 @@ Used `javac` as the query
 
 Used `TestL` as the query
 
-![Image](image.png)
+![Image](TestL-ctrl+r.png)
 
 `<enter>` to finish the search and run the following command:
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
 
-![Image](image.png)
+![Image](testPasses.png)
 
 ## Task #6: Commit and push the resulting change to your Github account
 
@@ -99,6 +99,6 @@ For this final step, I typed out the following commands:
 `git commit -m "fixed file"`
 `git push`
 
-![Image](image.png)
+![Image](gitFinalStep.png)
 
 I found it easier and faster to just type them out rather than using arrow keys to find them.
