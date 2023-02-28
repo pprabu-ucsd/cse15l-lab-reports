@@ -128,7 +128,7 @@ This option in the `less` command keeps the file open in the terminal even after
 
 This option in the `less` command highlights all matches within the file with the given pattern (is case-sensitive). This option is helpful, as if you are looking for a specfic piece of evidence within a text or file, using this option, you lessen the time spent searching for the specific piece of evidence needed.
 
-> For this option, as it was not possible to highlight the parts of the code block that matched the pattern, the pattern will be capitalized instead to convey the effect, and the actual images from the terminal will also be shown.
+> For this option, as it was not possible to highlight the parts of the code block that matched the pattern, the pattern will be fully capitalized in the text instead to convey the effect, and the actual images from the terminal will also be shown to show what it normally looks like.
 
 **Example 1:**
 
@@ -137,7 +137,7 @@ This option in the `less` command highlights all matches within the file with th
 **Result:**
 ```
         A Brief History
-        The city of Edinburgh grew up around #THE steep, ragged cliff
+        The city of Edinburgh grew up around THE steep, ragged cliff
         of THE Castle Rock and its easily defended summit. Archaeological
         excavations have revealed evidence of habitation here as long ago as
         900 b.c. Very little, however, is known about THE Rock and its
