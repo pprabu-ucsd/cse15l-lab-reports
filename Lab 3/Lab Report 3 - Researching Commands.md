@@ -8,7 +8,7 @@
 
 **Format:**
 
-`$ less -N <file-path>`
+`$ less -N <file-path>` 
 
 This option in the `less` command shows line numbers at the side of the opened file. This option is useful, as it would be helpful for any user looking to cite a specific piece of evidence by using the line numbers on the right as a guide.
 
