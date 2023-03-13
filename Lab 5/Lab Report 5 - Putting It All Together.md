@@ -1,4 +1,4 @@
-# Lab Report 5 - Recap
+# Lab Report 5 - Putting It All Together
 
 **By Pranav Prabu**
 
